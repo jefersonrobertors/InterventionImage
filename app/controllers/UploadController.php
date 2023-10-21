@@ -19,8 +19,6 @@ final class UploadController extends Controller {
 
             $info = $image->info();
 
-            var_dump($info);
-
             global $session;
             $id = $session->getSession('auth')->id;
 
