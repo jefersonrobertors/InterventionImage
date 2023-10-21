@@ -11,10 +11,6 @@ use core\UploadImage;
 final class UploadController extends Controller {
 
     public function main() : void {
-        if(!isset($_FILES['image'])) {
-            header('Location: /?error=No image selected');
-            exit;
-        }
         if(CsfrService::isValidToken()) {
             CsfrService::destroyToken();
 
