@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    max-width: 300px;
+    max-height: 400px;
+    border-radius: 50%;
+
+    border: 2px solid black;
+}
+
+input {
+    display: flex;
+    margin: 1rem;
+}
