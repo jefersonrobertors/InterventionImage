@@ -24,7 +24,7 @@ final class UploadController extends Controller {
 
             $user = new User;
 
-            if(!empty($old_image)) @unlink(__DIR__ . ($user->find('id', $id)->avatar));
+            //remove old image if(!empty($old_image)) @unlink(__DIR__ . ($user->find('id', $id)->avatar));
 
             $user->update(['avatar' => $info['path']], ['id' => $id]);
 
