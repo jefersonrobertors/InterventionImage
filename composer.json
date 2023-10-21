@@ -1,0 +1,21 @@
+{
+    "name": "jefer/intervention-image",
+    "license": "APACHE",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jefersonrobertors",
+            "email": "jefersonrobertors@outlook.com.br"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.5",
+        "intervention/image": "^2.7"
+    }
+}
